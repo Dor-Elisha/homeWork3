@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(0, 195, 255);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    width: 989px;
+    margin: 0 auto;
+
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+header nav a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+
+}
+header nav a:hover {
+    color: black;
+}
+
+/* section 1  */
+
+
+.s1 { /* .s1 is also css for form section  */
+    background-color: rgb(31, 59, 82);
+    height: 350px;
+    color: white;
+    border-radius: 10px;
+}
+
+#wCenter {
+    max-width: 90%;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+section nav a {
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 4px 12px;
+    border: solid 1px;
+    background-color: skyblue;
+    text-decoration: none;
+}
+#text_icons {
+    margin-top: 14px;
+}
+.iconsT {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.icons {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+#textInFirstSC {
+    max-width: 500px;
+}
+.photo1 {
+    width: 200px;
+    position: relative;
+    top: -285px;
+    left: 680px;
+   border-radius: 10px;
+}
+
+/* ending section 1  */
+
+/* start of main sections  */
+
+.sMain {
+    margin: 30px auto;
+    max-width: 90%;
+   
+}
+.photo {
+    width: 240px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.nextToPhoto {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 10px;
+    margin-top: 0;
+    color: rgb(94, 94, 94);
+}
+
+/* end of main sections */
+
+/* start of form  */
+.formS {
+    text-align: center;
+    height: 300px;
+}
+fieldset {
+    border: none;
+}
+form {
+    position: relative;
+    
+}
+label {
+    display: block;
+}
+#msg {
+    height: 100px;
+    width: 300px;
+}
+#msg::after {
+    content: "Text Here";
+}
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(0, 195, 255);
+}
+/* end of form  */
+
+/* footer  */
+footer {
+    color: white;
+    text-align: center;
+}
+/* end of footer  */
