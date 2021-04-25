@@ -55,6 +55,10 @@ section nav a {
     background-color: skyblue;
     text-decoration: none;
 }
+section nav a:hover {
+    background-color: white;
+    color:skyblue;
+}
 #text_icons {
     margin-top: 14px;
 }
